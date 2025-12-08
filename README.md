@@ -625,3 +625,5 @@ in system design phase we have to take decision about database that which type o
 why need database design..?
 
 structured organization for efficient managment and retrival of data.
+
+step--->1.Determine entitites-> 2.Determine Attribute For each entity-> 3.detremine relationship between entities-> 4.Resolving Many to Many relationship
