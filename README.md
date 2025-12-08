@@ -619,3 +619,9 @@ SDLC-এর মোট ৭টি প্রধান ধাপ আছে:
 5️⃣ Testing
 6️⃣ Deployment
 7️⃣ Maintenance
+
+in system design phase we have to take decision about database that which type of database we have to use for this project and after take decision we design database in same phase
+
+why need database design..?
+
+structured organization for efficient managment and retrival of data.
