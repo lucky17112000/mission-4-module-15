@@ -528,6 +528,8 @@ Super Key-গুলোর উদাহরণ:
 
 Candidate Keys = Super Key যেগুলো মিনিমাম (সবচেয়ে ছোট) থাকে।
 অতিরিক্ত কোনো কলাম থাকে না।
+also called Minimal Super Key.those candidate key is potential primary key.from all candiate key we choose as primary key.
+when we break a super key into more smaller parts then those smaller part cannot produce another super key.then we can say thoose smaller part is candidaite key.
 
 আমাদের Example থেকে Candidate Keys:
 
@@ -541,7 +543,19 @@ Candidate Keys = Super Key যেগুলো মিনিমাম (সবচ�
 
 👉 Every Candidate Key is a Super Key
 but
-Not every Super Key is a Candidate Key.
+Not every Super Key is a Candidate Key.\
+
+⭐ 3. Primary Key (PK)
+
+Candidate Key-গুলোর মধ্যে থেকে ডেটাবেজ যেটিকে মেইন ইউনিক আইডেন্টিফায়ার হিসেবে বেছে নেয় = Primary Key।
+
+✔ Unique
+✔ Not Null
+✔ Only 1 per table
+
+উদাহরণ:
+
+id (সাধারণত PK হয়)
 
 ⭐ 4. Alternate Key
 
@@ -569,6 +583,8 @@ Composite Key = {course_id, student_id}
 
 Foreign Key হলো এমন একটি key যা অন্য টেবিলের Primary Key-কে রেফার করে।
 
+it must be a primary key in another table.
+
 উদাহরণ:
 
 Students(dept_id) → Departments(id)
@@ -584,3 +600,22 @@ Primary Key-এর মতোই,
 
 উদাহরণ:
 email UNIQUE
+
+## ⭐ SDLC কী? (Software Development Life Cycle)
+
+SDLC হলো সফটওয়্যার তৈরির একটি ধাপে ধাপে অনুসরণযোগ্য প্রক্রিয়া।
+এর মাধ্যমে একটি সফটওয়্যার শুরু থেকে শেষ পর্যন্ত পরিকল্পনা → ডিজাইন → ডেভেলপ → টেস্ট → ডিপ্লয় → মেইনটেইন করা হয়।
+
+এটা যেন সফটওয়্যার বানানোর “Step-by-Step Recipe”.
+
+⭐ SDLC-এর সম্পূর্ণ ধাপ (Phases of SDLC)
+
+SDLC-এর মোট ৭টি প্রধান ধাপ আছে:
+
+1️⃣ Requirement Analysis
+2️⃣ System Design
+3️⃣ Database Design
+4️⃣ Implementation (Coding)
+5️⃣ Testing
+6️⃣ Deployment
+7️⃣ Maintenance
