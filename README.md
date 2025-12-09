@@ -627,3 +627,24 @@ why need database design..?
 structured organization for efficient managment and retrival of data.
 
 step--->1.Determine entitites-> 2.Determine Attribute For each entity-> 3.detremine relationship between entities-> 4.Resolving Many to Many relationship
+
+# relationship cardinality
+
+1.one to one (1:1)->one entity instance associated with another entity instance.
+husband and wife or a person have one passport
+
+2.one to many (1:M)->one entity instance associated with multiple entity instance.
+a child have one parent nevertheless a parent have many child
+
+3.many to one (M:1)->multiple entity instance associated with one entity instance.
+lots of worker in one company
+
+4.many to many (M:N)->multiple entity instance associated with multiple entity instance.
+student and course
+
+all sign picture below :
+![alt text](image-3.png)
+
+## one simple er digramexample below:
+
+![alt text](image-4.png)
